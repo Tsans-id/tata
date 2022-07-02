@@ -592,7 +592,7 @@ message: {
 "mimetype": "image/jpeg",
 "jpegThumbnail": log0 //Gambarnye
 },
-"title": "MyMans APIs", //Kasih namalu 
+"title": "Tata Xt", //Kasih namalu 
 "description": "SELF BOT", 
 "currencyCode": "USD",
 "priceAmount1000": "2000",
@@ -613,7 +613,7 @@ orderMessage: {
 itemCount : 1,
 status: 1,
 surface : 1,
-message: 'MyMans', //Kasih namalu
+message: 'Tata', //Kasih namalu
 orderTitle: 'Bang',
 thumbnail: log0, //Gambarnye
 sellerJid: '0@s.whatsapp.net'
@@ -735,7 +735,7 @@ const rurl = relink[Math.floor(Math.random() * relink.length)];
 mamans = teks
 mans.sendMessage(m.chat, {text:mamans, mentions: await mans.parseMention(mamans), contextInfo:{externalAdReply:{
 title: `${ucapanWaktu} ${pushname}`,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© Tata - X - Xt",
 thumbnail: thum,
 mediaType:1,
 mediaUrl: rurl,
@@ -765,7 +765,7 @@ let thnsto = getjson.content[0].content[0].content[0].content ? getjson.content[
 let cBandwidth = await checkBandwidth()
 let prefs = ` ▸ ${prefix}`
 const listmn = `*ROBOT WHATSAPP MULTI DEVICE*
-_Script By MyMans APIs - X - ZackMans Official_
+_Script By Tata - X - Xt_
 
 ${cekbotinfo}
 
@@ -972,7 +972,7 @@ ${prefs}cowner <add/del>
 > / => / $ / <
 
 THANKS TO :
-adiwajshing, MhankBarBar, Nurutomo, MyMans APIs - X - ZackMans Official, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, Mastah Lainya
+Adiwajshing, MhankBarBar, Nurutomo, MyMans APIs - X - ZackMans Official, ${thnsto}, Heroku, Replit, Railway, Termux, Rest APIs, Penyedia Module, Mastah Lainya
 
 ${ucapanWaktu}
 ${jangwak}`
@@ -991,7 +991,7 @@ video:fs.readFileSync("./media/video/mans.mp4"),
 gifPlayback:true,
 jpegThumbnail:log0,
 caption: listmn,
-footer: '© MyMans APIs - X - ZackMans Official',
+footer: '© Tata - X - Xt',
 templateButtons: templateButtons
 }
 mans.sendMessage(m.chat, templateMessage)
@@ -1450,7 +1450,7 @@ let buttons = [
 let buttonMessage = {
 image: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 }
@@ -1856,7 +1856,7 @@ let buttonMessageVote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Tata - X - Xt",
 buttons: buttonsVote,
 headerType: 1
 }
@@ -1900,7 +1900,7 @@ let buttonMessageUpvote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "©  Tata - X - Xt",
 buttons: buttonsUpvote,
 headerType: 1,
 mentions: menvote
@@ -1945,7 +1945,7 @@ let buttonMessageDevote = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks_vote,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Tata - X - Xt",
 buttons: buttonsDevote,
 headerType: 1,
 mentions: menvote
@@ -2120,7 +2120,7 @@ rows: listMsgs
 
 const listMessage = {
 text: "ketuk button dibawah untuk melihat daftar list respon message, ketuk lagi untuk menjalankan fiturnya",
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Tata - X - Xt",
 title: "     「 List Respon Message 」",
 buttonText: "List Message",
 sections
@@ -2367,7 +2367,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -2391,7 +2391,7 @@ let buttonMessage = {
 image: {url:res[0].icon},
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -2417,7 +2417,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -2446,7 +2446,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -2524,7 +2524,7 @@ rows: listSerch
 ]
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Tata - X - Xt",
 title: "     「 Youtube Search Downloader 」",
 buttonText: "List Search",
 mentions: await mans.parseMention(teskd),
@@ -2639,12 +2639,12 @@ text: "ZackMans Official",
 isForwarded: true,
 sendEphemeral: true,
 "externalAdReply": {
-"title": `ZackMans Official`,
-"body": `Subscribe To Channel YouTube ZackMans Official`,
+"title": `Tata Xt`,
+"body": `Subscribe To Channel YouTube Tata Xt`,
 "previewType": "PHOTO",
 "thumbnailUrl": thum,
 "thumbnail": thum,
-"sourceUrl": "https://youtu.be/jKAawPBWe5k"
+"sourceUrl": "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}}, { quoted: m, detectLink: true })
 }
 break
@@ -2687,7 +2687,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 ZackMans Official 」*\n\nChange Info, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -2713,7 +2713,7 @@ let buttonMessage = {
 image: log0,
 jpegThumbnail: thum,
 caption: `*「 ZackMans Official 」*\n\nChange Group Setting, Select Open Or Close`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -2785,7 +2785,7 @@ quoted.copyNForward(yoi, true, {quoted:fgclink})
 m.reply('Sukses Broadcast')
 }
 break
-case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
+/*case 'sc': case 'script': case 'donate': case 'donasi': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 teks = `     「 ZackMans Official 」\n\n${zckmn.saweria}\n${zckmn.donate}`
 for (let i of zckmn.source) {
 teks += `\n\nName : ${i.name}\n${i.link}`
@@ -2812,7 +2812,7 @@ sourceUrl: zckmn.saweria
 }
 mans.sendMessage(m.chat, buttonMessage, { quoted: m })
 }
-break
+break*/
 case 'profile': {
 if (isBan) return m.reply(mess.ban)
 const jidny = m.mentionedJid[0] ? m.mentionedJid[0] : m.quoted ? m.quoted.sender : m.sender ? m.sender : false
@@ -3293,16 +3293,16 @@ caption: `*| GOOGLE IMAGE |*
 
 🤠 Query : ${text}
 🔗 Media Url : ${images}`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Tata Xt",
+body:"© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow",
+sourceUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}
 }
 mans.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3336,16 +3336,16 @@ let buttons = [
 let buttonMessage = {
 image: { url: imgnyee },
 caption:  '⭔ Title : ' + args.join(" ") + '\n⭔ Media Url : '+imgnyee,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Tata Xt",
+body:"© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow",
+sourceUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}
 }
 mans.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -3376,7 +3376,7 @@ rows: listBloxk
 
 const listMessage = {
 text: teskd,
-footer: "© MyMans APIs - X - ZackMans Official",
+footer: "© Tata - X - Xt",
 title: "     「 List Participants Blockir 」",
 buttonText: "List Blockir",
 mentions: await mans.parseMention(teskd),
@@ -3413,7 +3413,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -3449,7 +3449,7 @@ let buttonMessage = {
 image:log0,
 jpegThumbnail:thum,
 caption: textbv,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4
 }
@@ -3475,12 +3475,12 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {video:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Tata Xt",
+body:"© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow",
+sourceUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}}, {quoted:m})
 } catch {
 m.reply("Linknya Error")
@@ -3492,12 +3492,12 @@ if (isBan) return m.reply(mess.ban)
 if (!args[0]) return m.reply("Linknya mana kak?")
 try {
 mans.sendMessage(from, {image:{url:args[0]}, caption:"Succes", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Tata Xt",
+body:"© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow",
+sourceUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}}, {quoted:m})
 } catch {
 m.reply("Linknya Error")
@@ -3524,11 +3524,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:lotwit.medias[1].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"Tata Xt - Twitter Downloader",
 body:lotwit.title ? lotwit.title : "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3550,11 +3550,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Twitter Downloader",
+title:"Tata Xt - Twitter Downloader",
 body: "Twitter Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3583,11 +3583,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:resd.medias[0].url},
 caption: teks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Facebook Downloader",
+title:"Tata Xt - Facebook Downloader",
 body:"facebook downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3609,11 +3609,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:args[0]},
 caption: "Done!",
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Facebook Downloader",
+title:"Tata Xt - Facebook Downloader",
 body: " Facebook Downloader",
 thumbnail: log0,
 mediaType:1,
@@ -3645,11 +3645,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.nowm},
 caption: twks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"Tata Xt - Tiktok Downloader",
 body: "Downloader!", // Ttnye.meta.title ? Ttnye.meta.title : "Downloader!"
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum}
 mediaType:1,
@@ -3668,7 +3668,7 @@ if (isBan) return m.reply(mess.ban)
 let res = await hx.ttdownloader(args[0]) // atau bisa pake aiovideodl
 // let Ttnye = await bochil.savefrom(args[0])
 mans.sendMessage(from, {audio:{url:res.wm}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"Tata Xt - Tiktok Downloader",
 body: "Downloader!", // Ttnye.meta.title ? Ttnye.meta.title : "Downloader!",
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum},
 mediaType:1,
@@ -3694,11 +3694,11 @@ let buttons = [
 let buttonMessage = {
 video: {url:res.wm},
 caption: twks,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
-title:"ZackMans Official - Tiktok Downloader",
+title:"Tata Xt - Tiktok Downloader",
 body: "Downloader!", //Ttnye.meta.title ? Ttnye.meta.title : "Downloader!",
 thumbnail: thum, // {url:Ttnye.thumb ? Ttnye.thumb : thum},
 mediaType:1,
@@ -3733,12 +3733,12 @@ caption: `*| YOUTUBE PLAY |*
 ⭔ Channel : ${anu.author.url}
 ⭔ Description : ${anu.description}
 ⭔ Url : ${anu.url}`,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: anu.title,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
 mediaUrl: anu.url,
@@ -3767,12 +3767,12 @@ let buttons = [
 let buttonMessage = {
 image: {url:res.thumb},
 caption: textyt,
-footer: "© MyMans APIs - MyMainas",
+footer: "© Tata - Xt",
 buttons: buttons,
 headerType: 4,
 contextInfo:{externalAdReply:{
 title: res.title,
-body: "© MyMans APIs - X - ZackMans Official",
+body: "© Tata - X - Xt",
 thumbnail: thum,
 mediaType:2,
 mediaUrl: args[0],
@@ -3789,24 +3789,24 @@ break
 case 'ytvd': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {video:{url:args[0]}, mimetype:"video/mp4", caption:"Success", contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Tata Xt",
+body:"© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow",
+sourceUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}}, {quoted:m})
 }
 break
 case 'ytad': {
 if (isBan) return m.reply(mess.ban)
 mans.sendMessage(from, {audio:{url:args[0]}, mimetype:"audio/mp4", ptt:true, contextInfo:{externalAdReply:{
-title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - ZackMans",
-body:"© MyMans APIs - X - ZackMans Official",
+title:"NOMOR BOT WHATSAPP, MULTI DEVICE TERBARU FITUR BERJIBUN - Tata Xt",
+body:"© Tata - X - Xt",
 thumbnail: log0,
 mediaType:2,
-mediaUrl: "https://youtu.be/jKAawPBWe5k",
-sourceUrl: "https://youtu.be/jKAawPBWe5k"
+mediaUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow",
+sourceUrl: "https://youtube.com/channel/UC452_uHttTH1OZm0lVCDTow"
 }}}, {quoted:m})
 }
 break
