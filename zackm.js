@@ -747,9 +747,9 @@ sourceUrl: rurl
 const zckmn = await fetchJson("https://ZackMans.github.io/database/zackbotmans.json")
 const ceknyai = require('./package.json').version
 if (zckmn.update === ceknyai) {
-cekbotinfo = `Anda menggunakan zackbotmans versi terbaru (${ceknyai}), belum ada update dari owner`
+cekbotinfo = `Anda menggunakan tatabot versi terbaru (${ceknyai}), belum ada update dari owner`
 } else {
-cekbotinfo = `Anda menggunakan zackbotmans v${ceknyai}, owner telah mengupdate zackbotmans ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
+cekbotinfo = `Anda menggunakan tatabot v${ceknyai}, owner telah mengupdate tatabot ke v${zckmn.update}, ketik cekupdate untuk melihat versi terbaru`
 }
 
 let getjson = await mans.query({
